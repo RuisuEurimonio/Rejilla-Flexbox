@@ -1,0 +1,28 @@
+*{
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+.container{
+    width: 100%;
+}
+
+.col-12{
+    height: 10rem;
+    border: 2px solid black
+}
+
+.caja{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.caja:nth-child(odd){
+    background-color: aqua;
+}
+
+.caja:nth-child(even){
+    background-color: pink;
+}
